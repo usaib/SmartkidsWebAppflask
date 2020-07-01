@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Classes Details
+    </title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="static/teacher.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="static/form3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style>
+     .well {
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     background:whitesmoke;
+     border:0px;
+     border-radius: 20px;
+     margin-top: 20px;
+     height: 100px;
+     width: 75%;
+     margin-left: 10%;
+}
+th {
+    color: whitesmoke;
+}
+tr{
+  color: whitesmoke;
+}
+@media screen and (min-width: 768px){
+    .partone , .parttwo{
+        height: 100vh;
+    }
+    
+}
+
+.partone{
+    height: auto;
+    width: 50%;
+    float: left;
+    min-width: auto;
+}
+.parttwo{
+    
+
+    height: auto;
+    width: 50%;
+    float: left;
+    min-width: auto;
+}
+
+#class_table{
+    width: 100%;
+    min-width: auto;
+}
+#sec_table{
+    margin-left: 7px;
+    width: 100%;
+    min-width: auto;
+}
+
+#button_set{
+  margin-inline-start: 10px;
+}
+.form-popup {
+  display: none;
+  bottom: 7%;
+  right: 35%;
+  margin-bottom: 0px;
+  z-index: 9;
+  border-radius: 20px;
+  float: right;
+  
+}
+body {font-family: Arial, Helvetica, sans-serif; background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);}
+* {box-sizing: border-box;}
+
+/*styles to the form container */
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-bottom: 17%;
+  max-height: 700px;
+  box-shadow: 1px 5px 7px 1px grey;
+}
+
+/*Full-width input fields */
+.form-container input[type=text], .form-container input[type=email], .form-container input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: white;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus .form-container input[type=number]{
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+#first{
+  background-color: #3bb78f;
+background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  
+}
+
+</style>
+</head>
+<body>
+    <div  class="container-fluid p-3 my-3 bg-dark text-white" id="first">
+        <div class="col-md-12">
+        <div class="well text-center">
+            <h1><span style="color: black; margin-left: 2%; font-size:3.2vw;">SMART KIDS SCHOOLING SYSTEM</span></h1>
+        </div>
+        </div>
+     <div class="container-fluid fill-height"  >
+        <div class="row no-gutters">
+            <div id="col1" class="col md-8">
+                <h2><span style="margin-left: 20px; color:whitesmoke; font-style: italic; font-weight:bold" >Student List</span> <button type="button"  id="button_set" class="btn btn-info pull-right" onclick="openForm2()">
+                            View List Of Class</button></h2>
+            </div>
+            <div class="form-popup" id="myForm">
+              <form id="editform" class="form-container">
+                <h3>Edit Student's Details</h3>
+            
+                <label for="name"><b>Name</b></label>
+                <input type="text" id="newname" placeholder="Enter name" name="newname" required>
+            
+                <label for="fathername"><b>Father's Name</b></label>
+                <input type="text" id="newfathername" placeholder="Enter email" name="newfathername" required>
+
+                <label for="phone"><b>Phone</b></label>
+                <input type="number" id="newphone" placeholder="Enter phone" name="newphone" required>
+
+                <label for="Cnic"><b>Cnic</b></label>
+                <input type="number" id="newcnic" placeholder="Enter Cnic No." name="newcnic" required>
+            
+                <button type="submit" class="btn btn-success" id="submit2" onclick="myFunctionedit()">Submit</button>
+                <button type="button" class="btn btn-danger" onclick="closeForm2()">Close</button>
+              </form>
+            </div>
+              <div class="form-popup" id="myForm2">
+                <form id="class_sec_form" class="form-container">
+                  <h3>Choose Class to Display</h3>
+              
+                  <label for="classes">Choose Class</label>
+                  <select id="classes_sections" name="classes_sections">
+                  </select>
+              
+                  <button type="button" class="btn btn-success" id="submit2" onclick="display_students()">Submit</button>
+                  <button type="button" class="btn btn-danger" onclick="closeForm2()">Close</button>
+                </form>
+              </div>
+            <div id="col2" class="col md-4 no-gutters">
+                <div  id="partone" class="partone">
+                <div id="ClassTable">
+                    <table id="class_table" class="table table-bordered table-dark table-sm ">
+                    </table>
+                </div>
+            </div>
+          </div>
+          <div class="col md-4 no-gutters">
+            <div id="parttwo"class="parttwo">
+            <div id="SecTable">
+                <table id="sec_table" class="table table-bordered table-dark table-sm">
+                </table>
+            </div>
+            </div>
+        </div>
+        <div id="Class_Sec_Table">
+            <table id="create_class_table" class="table table-dark table-sm ">
+            </table>
+        </div>
+       
+
+          </div>
+
+     </div>
+
+    </div>
+    
+ </body>
+<script>
+   function openForm(element) {
+    document.getElementById("myForm").style.display = "block";
+    x= element.closest('tr').rowIndex;
+    tabID=element.closest('table').id;
+    stid=document.getElementById(tabID).rows[x].cells[3].innerHTML;
+    return stid;
+  }
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  function openForm2(element) {
+    document.getElementById("myForm2").style.display = "block";
+  }
+  function closeForm2() {
+    document.getElementById("myForm2").style.display = "none";
+  }
+</script>
+</html>

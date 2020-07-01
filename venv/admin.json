@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smart-kids-96ec0",
+  "private_key_id": "7835ff4e0d53da0e8e4e92b90ccf85351e1be9f6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCfBFouUUK24G80\n3kMnRrKF/oPsrQdgrJx5kos6j2xHzm49UQ7dbqAlGNhFfPyf7+H+ALtiOjCAbN/u\nmUixmj0jPnT7T2nrUCCel6DyZ5AKqEQb7dwJUjg/BXxtZvLoW3ziLg/nJ3NC4dMj\nsUJZMBKw72npXQ8lg7WDa0jJ4R+VcCasXJd4+IZ7KgtfOiQKR+j+sNdggEVYtkcZ\neY0YNt8FVlFWq7ChfSRgaaObVMPOdebx4+sRs4Nqk7Pi1Lf2upa/dl0XnrctC3ye\nOw6MJPSmVLILmu/ERzOxgb/an+s0wzF0Z7L9k0wWeT87QK+bQsKQlcQNId/6AgOW\n8KvXQSclAgMBAAECgf8Q83eLWkBcn3HwhX9RtRyxROsjOgZ69a8qsNoyet8LexN/\nGJvEmfiOqRqhRx8zaihxYLo6ZxE0HtVR7/gDroHODCM/oGDofO2n6oiOZ4uMQfQX\nC1cd6OWEUvpqDFo6/xdn7ArylJf/B+MYP56A9cmbUzzr5x6CXqA5L6BCBHyOmCFF\nnvszsFf3KSGEhzO9XLgKrVFORJ1d2viWQ/kZQsIr/UIpjzrQqKqhWs3KvNsrGIsJ\nhpP+b8efoPje5TpzGLY5do0X8ztFCcgEFLbmNEQphGe2u1eLZi0JU1zPjWbcLxHo\nlZymhinMZBByb+2wkeDGSazhfjRVvM4FZKerdicCgYEA11y7T4ROU9w+ZNpQtJbW\n4wEsN0owN9v9/+2TDk2zLL8uhtZyNIzxnfB4118XyKnxeUCBtotHmC32b6bdpsfo\nZHdqVNclJ/pvczj2vbsJ6nK2pa5O8cTKUi4R3qyTH3UY9GxkeZ+2AIcKoXSkGa59\n7OOFUccxbK8srw0KgE3eACsCgYEAvQXQHnDkb9UMa75NaGqctS6+zqwC6gUqruzs\nI1bcfpDsEjNfx5scPAWR5kGlFw9RzxZdFR67yFLtc+OJUilkd1WJK49bpGte63ho\nKKQ3PcyVYhB8FLW9UgnO/wyxTKd7RNkICQ2AUfCnJ8Z6Rl4+lShGBsKkAK5PMnuV\nHl2+fe8CgYAjwnAPugZPgmiR0nZIJiu0McOnwpfTDqJUVpxuaZRwv6X4Ga+I7kZI\nVV+bU1zdoupHmeBv8RyINkmPLIPtZ5A87l8niznOM5VB6pl904rH9RhC1nihSG3X\ny3KIKNudA5KLM1xTnaNY3xNyz61X3lNmfDjs5UhdpZCj2GR//W35VQKBgGtBWCVd\nw5FdX23njr7X99GrE6Pr4L9vbRfS4e7vg6/hhcKSGiAF+JBqTK5Nw2KBU9dhBjJM\nvRrfS1N94daYHCTGiU4JS2PRdQvBx8B/5cSQSJdbaTzLHwDlBeqdBiHLytt3FuMk\nIRLdrcuZCJrTMUmrj4iYezzTq6amjyeq48NLAoGAQLRDe4K3AWh+XB0wGUg0nrHX\nO7RA/z1rM41G6+XCKs21Wr5MOE4Tme+DUkdyuYPGukH94QHp2qHoiGesFG+0/+LE\nmIpCr4tPdBxj+o9L/njBIRZlckpjhorZAUBd3xNiVeZqTr9cjfvPZUL412ulDKoy\nWhphEOGlFUmUD1o0V1w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-b21ek@smart-kids-96ec0.iam.gserviceaccount.com",
+  "client_id": "108042827959121648252",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-b21ek%40smart-kids-96ec0.iam.gserviceaccount.com"
+}

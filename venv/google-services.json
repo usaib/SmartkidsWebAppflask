@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1055797331572",
+    "firebase_url": "https://smart-kids-96ec0.firebaseio.com",
+    "project_id": "smart-kids-96ec0",
+    "storage_bucket": "smart-kids-96ec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055797331572:android:4f718a6e5a4de1f641f321",
+        "android_client_info": {
+          "package_name": "com.example.smartapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055797331572-ob0ind222ttf3tlqdctvckicclhfog2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartapp",
+            "certificate_hash": "bb4e8ec20718dfa8f3a6f882850c2db4871f1abe"
+          }
+        },
+        {
+          "client_id": "1055797331572-u4o40hdfpic7po9u6t2p58ij4su5c539.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWD4y3kIs4z-W1VAQvQMI5N6Ga9y17PsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055797331572-u4o40hdfpic7po9u6t2p58ij4su5c539.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
